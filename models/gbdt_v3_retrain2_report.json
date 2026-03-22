@@ -1,0 +1,69 @@
+{
+  "output_path": "models/gbdt_v3_retrain2.joblib",
+  "report_path": "models/gbdt_v3_retrain2_report.json",
+  "training_round_ids": [
+    "2a341ace-0f57-4309-9b89-e59fe0f09179",
+    "324fde07-1670-4202-b199-7aa92ecb40ee",
+    "36e581f1-73f8-453f-ab98-cbe3052b701b",
+    "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+    "75e625c3-60cb-4392-af3e-c86a98bde8c2",
+    "7b4bda99-6165-4221-97cc-27880f5e6d95",
+    "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+    "ae78003a-4efe-425a-881a-d16a39bca0ad",
+    "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+    "c5cdf100-a876-4fb7-b5d8-757162c97989",
+    "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+    "d0a2c894-2162-4d49-86cf-435b9013f3b8"
+  ],
+  "training_examples": 135000,
+  "feature_version": 3,
+  "best_params": {
+    "n_estimators": 268,
+    "learning_rate": 0.021647094588344316,
+    "num_leaves": 28,
+    "min_child_samples": 115,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.006706309834554144,
+    "model_blend": 0.7976155811949487,
+    "prior_strength": 2.4394702632693104,
+    "temperature": 1.418799978343887
+  },
+  "backend": "sklearn-hgbt",
+  "mixer_optuna_trials": 12,
+  "cv_prequential_logloss": 0.6615468842343689,
+  "base_model_cv_prequential_logloss": 0.6868491339623057,
+  "posterior_mode": "ensemble",
+  "ensemble_params": {
+    "bucket_empirical_weights": [
+      0.0,
+      0.38416951117945053,
+      0.5904820433529478,
+      0.8021083751930806
+    ],
+    "empirical_confidence_bonus": 0.009895630213578716,
+    "disagreement_penalty": 0.15152152315778752,
+    "agreement_bonus": 0.028220378849345223,
+    "min_model_weight": 0.07378103248204856
+  },
+  "gate_params": null,
+  "bucket_temperatures": null,
+  "posterior_mixer": {
+    "baseline_cv_prequential_logloss": 0.6609267449238755,
+    "ensemble_trials": 12,
+    "ensemble_best_value": 0.6615468842343689,
+    "ensemble_best_params": {
+      "bucket_empirical_weights": [
+        0.0,
+        0.38416951117945053,
+        0.5904820433529478,
+        0.8021083751930806
+      ],
+      "empirical_confidence_bonus": 0.009895630213578716,
+      "disagreement_penalty": 0.15152152315778752,
+      "agreement_bonus": 0.028220378849345223,
+      "min_model_weight": 0.07378103248204856
+    }
+  }
+}

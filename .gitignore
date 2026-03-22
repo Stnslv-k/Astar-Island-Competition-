@@ -1,0 +1,12 @@
+.astar_cache.sqlite3
+.env
+.env.local
+.venv/
+.pytest_cache/
+.DS_Store
+__pycache__/
+**/__pycache__/
+*.pyc
+logs/
+models/bakeoff*/
+runs/

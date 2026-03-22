@@ -1,0 +1,65 @@
+{
+  "output_path": "models/sklearn_v4_mixer1.joblib",
+  "report_path": "models/sklearn_v4_mixer1_report.json",
+  "training_round_ids": [
+    "2a341ace-0f57-4309-9b89-e59fe0f09179",
+    "324fde07-1670-4202-b199-7aa92ecb40ee",
+    "36e581f1-73f8-453f-ab98-cbe3052b701b",
+    "75e625c3-60cb-4392-af3e-c86a98bde8c2",
+    "7b4bda99-6165-4221-97cc-27880f5e6d95",
+    "ae78003a-4efe-425a-881a-d16a39bca0ad",
+    "c5cdf100-a876-4fb7-b5d8-757162c97989",
+    "d0a2c894-2162-4d49-86cf-435b9013f3b8"
+  ],
+  "training_examples": 90000,
+  "feature_version": 4,
+  "best_params": {
+    "n_estimators": 260,
+    "learning_rate": 0.055,
+    "num_leaves": 63,
+    "min_child_samples": 50,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.08,
+    "model_blend": 0.72,
+    "prior_strength": 0.42,
+    "temperature": 1.0
+  },
+  "backend": "sklearn-hgbt",
+  "mixer_optuna_trials": 6,
+  "cv_prequential_logloss": 0.5676179153336197,
+  "base_model_cv_prequential_logloss": 0.7225040639947026,
+  "posterior_mode": "ensemble",
+  "ensemble_params": {
+    "bucket_empirical_weights": [
+      0.0,
+      0.3033468089340014,
+      0.5309323274121523,
+      0.6385661255352609
+    ],
+    "empirical_confidence_bonus": 0.13947390887520122,
+    "disagreement_penalty": 0.08431805687605631,
+    "agreement_bonus": 0.09664077212461783,
+    "min_model_weight": 0.1509683413598346
+  },
+  "gate_params": null,
+  "bucket_temperatures": null,
+  "posterior_mixer": {
+    "baseline_cv_prequential_logloss": 0.6092074105171921,
+    "ensemble_trials": 6,
+    "ensemble_best_value": 0.5676179153336197,
+    "ensemble_best_params": {
+      "bucket_empirical_weights": [
+        0.0,
+        0.3033468089340014,
+        0.5309323274121523,
+        0.6385661255352609
+      ],
+      "empirical_confidence_bonus": 0.13947390887520122,
+      "disagreement_penalty": 0.08431805687605631,
+      "agreement_bonus": 0.09664077212461783,
+      "min_model_weight": 0.1509683413598346
+    }
+  }
+}

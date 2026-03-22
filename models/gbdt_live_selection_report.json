@@ -1,0 +1,100 @@
+{
+  "benchmark_round_ids": [
+    "d0a2c894-2162-4d49-86cf-435b9013f3b8",
+    "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+    "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+    "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+    "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+    "597e60cf-d1a1-4627-ac4d-2a61da68b6df"
+  ],
+  "recent_rounds": 6,
+  "stable_model_path": "models/gbdt_prior.joblib",
+  "candidate_model_path": "models/gbdt_v3_retrain2.joblib",
+  "stable": {
+    "round_ids": [
+      "d0a2c894-2162-4d49-86cf-435b9013f3b8",
+      "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+      "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+      "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+      "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+      "597e60cf-d1a1-4627-ac4d-2a61da68b6df"
+    ],
+    "average_prequential_logloss": 0.7142018083066852,
+    "per_round": [
+      {
+        "round_id": "d0a2c894-2162-4d49-86cf-435b9013f3b8",
+        "round_number": 14,
+        "prequential_logloss": 0.8132349962362796
+      },
+      {
+        "round_id": "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+        "round_number": 15,
+        "prequential_logloss": 0.7291726304409295
+      },
+      {
+        "round_id": "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+        "round_number": 16,
+        "prequential_logloss": 0.47876736158790373
+      },
+      {
+        "round_id": "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+        "round_number": 17,
+        "prequential_logloss": 0.9336472311722969
+      },
+      {
+        "round_id": "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+        "round_number": 18,
+        "prequential_logloss": 0.930491433418269
+      },
+      {
+        "round_id": "597e60cf-d1a1-4627-ac4d-2a61da68b6df",
+        "round_number": 19,
+        "prequential_logloss": 0.39989719698443305
+      }
+    ]
+  },
+  "candidate": {
+    "round_ids": [
+      "d0a2c894-2162-4d49-86cf-435b9013f3b8",
+      "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+      "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+      "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+      "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+      "597e60cf-d1a1-4627-ac4d-2a61da68b6df"
+    ],
+    "average_prequential_logloss": 0.6777996339464308,
+    "per_round": [
+      {
+        "round_id": "d0a2c894-2162-4d49-86cf-435b9013f3b8",
+        "round_number": 14,
+        "prequential_logloss": 0.7581101643084306
+      },
+      {
+        "round_id": "cc5442dd-bc5d-418b-911b-7eb960cb0390",
+        "round_number": 15,
+        "prequential_logloss": 0.7051971405353316
+      },
+      {
+        "round_id": "8f664aed-8839-4c85-bed0-77a2cac7c6f5",
+        "round_number": 16,
+        "prequential_logloss": 0.47836905485330816
+      },
+      {
+        "round_id": "3eb0c25d-28fa-48ca-b8e1-fc249e3918e9",
+        "round_number": 17,
+        "prequential_logloss": 0.8715085248502099
+      },
+      {
+        "round_id": "b0f9d1bf-4b71-4e6e-816c-19c718d29056",
+        "round_number": 18,
+        "prequential_logloss": 0.833331345635561
+      },
+      {
+        "round_id": "597e60cf-d1a1-4627-ac4d-2a61da68b6df",
+        "round_number": 19,
+        "prequential_logloss": 0.42028157349574397
+      }
+    ]
+  },
+  "candidate_minus_stable": -0.03640217436025439
+}

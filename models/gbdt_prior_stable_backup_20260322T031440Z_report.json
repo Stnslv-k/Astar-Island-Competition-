@@ -1,0 +1,61 @@
+{
+  "output_path": "models/gbdt_prior.joblib",
+  "report_path": "models/gbdt_prior_report.json",
+  "training_round_ids": [
+    "2a341ace-0f57-4309-9b89-e59fe0f09179",
+    "36e581f1-73f8-453f-ab98-cbe3052b701b",
+    "75e625c3-60cb-4392-af3e-c86a98bde8c2",
+    "ae78003a-4efe-425a-881a-d16a39bca0ad",
+    "c5cdf100-a876-4fb7-b5d8-757162c97989"
+  ],
+  "training_examples": 56250,
+  "feature_version": 3,
+  "best_params": {
+    "n_estimators": 344,
+    "learning_rate": 0.062427098983439136,
+    "num_leaves": 34,
+    "min_child_samples": 73,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "reg_lambda": 0.004037119373120346,
+    "model_blend": 0.7867486021034132,
+    "prior_strength": 1.4468105408137226,
+    "temperature": 1.6007131378281767
+  },
+  "backend": "sklearn-hgbt",
+  "cv_prequential_logloss": 0.5349969331891595,
+  "base_model_cv_prequential_logloss": 0.6255905447375786,
+  "posterior_mode": "ensemble",
+  "ensemble_params": {
+    "bucket_empirical_weights": [
+      0.0,
+      0.2347324763737032,
+      0.5927342882840906,
+      0.6283313033480115
+    ],
+    "empirical_confidence_bonus": 0.055355489391996006,
+    "disagreement_penalty": 0.3115741395701657,
+    "agreement_bonus": 0.08242628044146347,
+    "min_model_weight": 0.24597966156964504
+  },
+  "gate_params": null,
+  "bucket_temperatures": null,
+  "posterior_mixer": {
+    "baseline_cv_prequential_logloss": 0.5452818962137725,
+    "ensemble_trials": 24,
+    "ensemble_best_value": 0.5349969331891595,
+    "ensemble_best_params": {
+      "bucket_empirical_weights": [
+        0.0,
+        0.2347324763737032,
+        0.5927342882840906,
+        0.6283313033480115
+      ],
+      "empirical_confidence_bonus": 0.055355489391996006,
+      "disagreement_penalty": 0.3115741395701657,
+      "agreement_bonus": 0.08242628044146347,
+      "min_model_weight": 0.24597966156964504
+    }
+  }
+}
